@@ -47,20 +47,4 @@ window.addEventListener('click', function(e) {
             x.className = "topnav";
         }
     }
-
 });
-
-window.onscroll = function() {
-    scrollFunction()
-};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("myTopnav").style.paddingTop = "6px";
-        document.getElementById("myTopnav").style.height = "8vh";
-    } else {
-        // document.getElementById("nav-link").style.padding = "14px 16px";
-        document.getElementById("myTopnav").style.paddingTop = "12px";
-        document.getElementById("myTopnav").style.height = "10vh";
-    }
-}

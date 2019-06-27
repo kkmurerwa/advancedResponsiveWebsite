@@ -6,7 +6,7 @@ body {
 .topnav {
     width: 100%;
     z-index: 1;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
     padding-top: 16px;
     background: #0e141e;
